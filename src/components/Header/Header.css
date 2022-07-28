@@ -50,12 +50,10 @@
     color: #C4C1CF;
     padding: 10px 20px;
     cursor: pointer;
-    font-weight: 300;
     font-size: 18px;
-    line-height: 21px;
 }
 
-.header__navbar-button:active {
+.header__navbar-button.active {
     border: 1px solid;
     border-radius: 32px;
 }
