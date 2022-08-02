@@ -46,6 +46,7 @@
 }
 
 .header__navbar-button {
+    font-weight: 600;
     background-color: rgba(0, 0, 0, 0);
     color: #C4C1CF;
     padding: 10px 20px;
