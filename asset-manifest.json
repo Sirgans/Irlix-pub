@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Irlix-pub-intensive/static/css/main.4863afcf.css",
+    "main.js": "/Irlix-pub-intensive/static/js/main.b3870fbc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Irlix-pub-intensive/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/Irlix-pub-intensive/static/media/logo.03643369b1723eae6e36c7d24784487d.svg",
+    "index.html": "/Irlix-pub-intensive/index.html",
+    "main.4863afcf.css.map": "/Irlix-pub-intensive/static/css/main.4863afcf.css.map",
+    "main.b3870fbc.js.map": "/Irlix-pub-intensive/static/js/main.b3870fbc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Irlix-pub-intensive/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4863afcf.css",
+    "static/js/main.b3870fbc.js"
+  ]
+}
