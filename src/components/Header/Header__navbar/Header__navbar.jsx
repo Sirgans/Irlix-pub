@@ -1,38 +1,27 @@
-import React, {useState} from 'react';
+import React, {useState, useContext, useEffect} from 'react';
+import { Catigory } from './../../../App';
+import {sortedCategory} from '../../../utils/helpers/sortedCategory'
 
-const navigationCatigory = [
-    {
-        id: 1,
-        name: 'Новинки',
-    },
-    {
-        id: 2,
-        name: 'Сладкие',
-    },
-    {
-        id: 3,
-        name: 'Хит',
-    },
-    {
-        id: 4,
-        name: 'Крепкие'
-    }
-]
 const HeaderNavbar = () => {
+    const {context, setSelectCatigory} = useContext(Catigory)
+    let sortedArr = sortedCategory(context) 
+    
     const [activNavigation, setActiveNavigation] = useState([])
-    const onActivNav = (id) => {
-        setActiveNavigation(id)
+
+    const onActivNav = (name) => {
+        setSelectCatigory(name)
+        setActiveNavigation(name)
     }
     return (
         <ul className={'header__navbar'}>
-            {navigationCatigory.map(catigory =>{
+            {sortedArr?.map(catigory =>{
                 return (
                     <li className={
-                        activNavigation === catigory.id
+                        activNavigation === catigory
                         ? "header__navbar-button active"
                         : "header__navbar-button"
-                    } onClick ={() => onActivNav(catigory.id)}
-                    key={catigory.id}>{catigory.name}</li>
+                    } onClick ={() => onActivNav(catigory)}
+                    key={catigory}>{catigory}</li>
                 )
             })}
         </ul>
@@ -40,3 +29,15 @@ const HeaderNavbar = () => {
 }
 
 export default HeaderNavbar
+
+// const sortedCategory = (context) => {
+//     let filterArr = new Set([])
+
+//     context?.forEach(element => {
+//         filterArr.add(element.filter[0])
+//         filterArr.add(element.filter[1])
+//     });
+
+//     const sortedArr = Array.from(filterArr)
+//     return sortedArr
+// }

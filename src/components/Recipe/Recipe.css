@@ -1,0 +1,13 @@
+.detail_information-manual {
+    padding: 0 32px 180px;
+    background-color: #201F2E;
+  }
+  .detail_information-manual_title {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  .detail_information-manual_instruction {
+    margin-top: 0;
+    color: #c4c1cf;
+    white-space: pre-line;
+  }

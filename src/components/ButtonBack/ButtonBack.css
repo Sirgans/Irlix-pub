@@ -1,0 +1,11 @@
+.button-back {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    background: #44414e;
+    margin-top: 32px;
+    margin-left: 33px;
+    border-radius: 16px;
+    z-index: 2;
+    border-color: transparent;
+}

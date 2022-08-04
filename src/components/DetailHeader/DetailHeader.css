@@ -1,0 +1,19 @@
+.img-info {
+    margin-top: 50px;
+}
+
+.img-info__product {
+    position: fixed;
+    width: 100%;
+}
+
+.detail_header__title {
+    padding: 20px 0 0;
+    margin-left: 32px;
+    margin-bottom: 0;
+}
+
+.detail_header__subtitle {
+    margin-left: 32px;
+    margin-top: 0;
+}

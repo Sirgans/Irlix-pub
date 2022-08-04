@@ -7,7 +7,7 @@ const Card = ({image, title, subtitle, value}) => {
     return (
         <article className='card'> 
             <div className='card__image-wrapper'>
-                <img className='card__image' src={require(`../../assets/product/${image}`)} alt="Изображение напитка"/>  
+                <img className='card__image' src={image} alt="Изображение напитка"/>  
             </div>                                                  
             <div className='card__name'>
                 <h3 className='card__title'>
