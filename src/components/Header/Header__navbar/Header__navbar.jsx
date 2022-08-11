@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, {useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
 import { sortedCategory } from '../../../utils/helpers/sortedCategory'
@@ -8,24 +7,11 @@ const HeaderNavbar = () => {
     const dispatch = useDispatch()
     const {card} = useSelector(state => state.pub)
     let sortedArr = sortedCategory(card) 
-=======
-import React, {useState, useContext, useEffect} from 'react';
-import { Catigory } from './../../../App';
-import {sortedCategory} from '../../../utils/helpers/sortedCategory'
-
-const HeaderNavbar = () => {
-    const {context, setSelectCatigory} = useContext(Catigory)
-    let sortedArr = sortedCategory(context) 
->>>>>>> bf27c4393cbe0f60563b70ceef881d0a1225689b
     
     const [activNavigation, setActiveNavigation] = useState([])
 
     const onActivNav = (name) => {
-<<<<<<< HEAD
         dispatch(setSelectCatigory(name)) 
-=======
-        setSelectCatigory(name)
->>>>>>> bf27c4393cbe0f60563b70ceef881d0a1225689b
         setActiveNavigation(name)
     }
     return (
