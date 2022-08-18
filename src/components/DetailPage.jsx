@@ -15,7 +15,6 @@ const DetailCard = () => {
         api.getOneCard(id).then(data => setData(data))
       }, [id])
     
-    
     return(
         
     <div className="detail">

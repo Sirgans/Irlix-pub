@@ -5,6 +5,7 @@ import { api } from "./pub.api";
 const initialState = {
     card: [],
     selectCatigory: 'Всё', 
+    activNavigation: 'Всё',
     searchValue: '', 
     isLoading: false, 
     detailCard: [], 
@@ -21,6 +22,9 @@ export const pubSlice = createSlice ({
         setSelectCatigory (state, action) {
             state.selectCatigory = action.payload
         },
+        setActiveNavigation (state, action) {
+            state.activNavigation = action.payload
+        },
         setSearchValue (state, action) {
             state.searchValue = action.payload
         },
@@ -28,8 +32,6 @@ export const pubSlice = createSlice ({
             state.isLoading = action.payload
         },
         fetchDetailCard (state, action) {
-            console.log(action.payload)
-            
             state.detailCard = state.card.find(item => action.payload === item.id)
         }
     },
@@ -50,5 +52,5 @@ export const pubSlice = createSlice ({
     }
 })
 
-export const {setcard, setIsLoading, setSearchValue, setSelectCatigory, fetchDetailCard} = pubSlice.actions;
+export const {setcard, setActiveNavigation, setIsLoading, setSearchValue, setSelectCatigory, fetchDetailCard} = pubSlice.actions;
 export const pubReducer = pubSlice.reducer;
