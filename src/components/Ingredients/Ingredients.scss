@@ -1,0 +1,30 @@
+.detail__information-ingredients {
+    padding: 0 32px;
+    background-position: 0 11px;
+    background-size: cover;
+}
+
+.detail__information-ingredients__title {
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+.ingredients {
+    font-weight: 600;
+    color: #C4C1CF;
+    display: flex;
+    justify-content: space-between;
+}
+.point {
+    border-bottom: 1px dotted;
+    flex: auto;
+}
+
+.quantity{
+    align-self: center;
+}

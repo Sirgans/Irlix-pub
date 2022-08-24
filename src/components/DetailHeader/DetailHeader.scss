@@ -1,0 +1,31 @@
+.detail {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.img-info {
+    max-width: 1024px;
+    position: relative;
+}
+
+.img-info__product {
+    height: 384px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.detail_header__title {
+    font-size: 24px;
+    margin-top: 0;
+    padding: 20px 0 0;
+    margin-left: 32px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.detail_header__subtitle {
+    font-size: 18px;
+    margin-left: 32px;
+    margin-top: 0;
+    color: #C4C1CF;
+}

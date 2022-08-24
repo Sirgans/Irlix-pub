@@ -1,5 +1,5 @@
 import React from "react";
-import './DetailHeader.css'
+import './DetailHeader.scss'
 
 
 

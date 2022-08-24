@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
-import Footer from "./Footer/Footer"
+import FooterContainer from "./Footer/FooterContainer"
 import MainContainer from "./Main/MainContainer";
 
 
@@ -9,7 +9,7 @@ const MainPage = () => {
    <div className="container">
         <Header />
         <MainContainer />
-        <Footer />
+        <FooterContainer />
    </div>)
 }
 

@@ -1,14 +1,17 @@
-import React from 'react';
-import { getDate } from '../../../utils/helpers/getDate';
+import React, { memo } from 'react';
+import Get from '../../../utils/helpers/getDate';
 
-const HeaderTitle = () => {
-    const currentDate = getDate()
+
+const HeaderTitle = memo(({ searchValue }) => {
     return (
         <div className="header__article">
-            <p className="header__title">Главная</p>
-            <p className="header__date">{currentDate}</p>
+            <p className="header__title">{searchValue
+                ? "Поиск"
+                : "Главная"}</p>
+            <Get />
         </div>
     )
-}
 
-export default HeaderTitle
+})
+
+export default memo(HeaderTitle)
