@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Irlix-pub-intensive/static/css/main.bac328f8.css",
-    "main.js": "/Irlix-pub-intensive/static/js/main.5b5a9457.js",
+    "main.css": "/Irlix-pub-intensive/static/css/main.ecae3e4e.css",
+    "main.js": "/Irlix-pub-intensive/static/js/main.47873db3.js",
     "static/media/logo.svg": "/Irlix-pub-intensive/static/media/logo.03643369b1723eae6e36c7d24784487d.svg",
     "index.html": "/Irlix-pub-intensive/index.html",
     "static/media/buttonBack.svg": "/Irlix-pub-intensive/static/media/buttonBack.1b4561562f144df41ed42cfa2ac155aa.svg",
-    "main.bac328f8.css.map": "/Irlix-pub-intensive/static/css/main.bac328f8.css.map",
-    "main.5b5a9457.js.map": "/Irlix-pub-intensive/static/js/main.5b5a9457.js.map"
+    "main.ecae3e4e.css.map": "/Irlix-pub-intensive/static/css/main.ecae3e4e.css.map",
+    "main.47873db3.js.map": "/Irlix-pub-intensive/static/js/main.47873db3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac328f8.css",
-    "static/js/main.5b5a9457.js"
+    "static/css/main.ecae3e4e.css",
+    "static/js/main.47873db3.js"
   ]
 }
