@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import image from "../../assets/buttonBack.svg"
-import './ButtonBack.css'
+import './ButtonBack.scss'
 
 const ButtonBack = () => {
     return (

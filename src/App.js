@@ -1,36 +1,20 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import './normalize.css'
-import MainPage from './components/MainPage';
+import MainPage from './components/Pages/MainPage/MainPage';
 import { Route, Routes } from 'react-router-dom';
-import DetailCard from './components/DetailPage';
+import DetailCardContainer from './components/Pages/DetailPage/DetailPageContainer';
 
-
-export const Catigory = React.createContext()
-// export const selectCatigory = React.createContext()
 
 const App = () => {
-<<<<<<< HEAD
 
   return (
     <div className="wrapper">
       <Routes>
         <Route path='/Irlix-pub-intensive' element= {<MainPage />} />
-        <Route path='/Irlix-pub-intensive/:id' element = {<DetailCard />} />
+        <Route path='/Irlix-pub-intensive/:id' element = {<DetailCardContainer />} />
+        <Route path='*' element = {<div>Ошибка</div> } />
       </Routes>
-=======
-  const [context, setContext] = useState([])
-  const [selectCatigory, setSelectCatigory] = useState('Всё')
-  const [searchValue, setSearchValue] = useState('')
-
-  return (
-    <div className="wrapper">
-      <Catigory.Provider value = {{context, setContext, selectCatigory, setSelectCatigory, searchValue, setSearchValue}}>
-      <Header />
-      <Main />
-      <Footer />
-      </Catigory.Provider>
->>>>>>> bf27c4393cbe0f60563b70ceef881d0a1225689b
     </div>
   );
 }

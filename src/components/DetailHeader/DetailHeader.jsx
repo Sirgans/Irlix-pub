@@ -1,10 +1,11 @@
 import React from "react";
-import './DetailHeader.css'
+import './DetailHeader.scss'
 
 
 
 
 const DetailHeader = ({image, title, subtitle}) => {
+  
   return (
   <div className="img-info">
         <img className="img-info__product" src={image} alt='Изображение'/>
