@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sirgans.github.io/Irlix-pub-intensive/",
+  "homepage": "https://sirgans.github.io/Irlix-pub/",
   "dependencies": {
     "@bem-react/classname": "^1.5.12",
     "@reduxjs/toolkit": "^1.8.3",
