@@ -5,7 +5,7 @@ import './ButtonBack.scss'
 
 const ButtonBack = () => {
     return (
-    <Link to={'/Irlix-pub-intensive'}>
+    <Link to={'/Irlix-pub'}>
     <button className="button-back">
         <img src={image} alt="На главную"/>
     </button>
