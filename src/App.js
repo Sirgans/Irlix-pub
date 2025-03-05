@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div className="wrapper">
       <Routes>
-        <Route path='/Irlix-pub-intensive' element= {<MainPage />} />
-        <Route path='/Irlix-pub-intensive/:id' element = {<DetailCardContainer />} />
+        <Route path='/Irlix-pub' element= {<MainPage />} />
+        <Route path='/Irlix-pub/:id' element = {<DetailCardContainer />} />
         <Route path='*' element = {<div>Ошибка</div> } />
       </Routes>
     </div>
